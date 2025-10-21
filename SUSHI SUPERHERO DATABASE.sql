@@ -1,6 +1,6 @@
 SUSHI SUPERHERO DATABASE
 
-CREATE TABLE POLLUTION LEVELS (
+CREATE TABLE POLLUTION_LEVELS (
   id VARCHAR(100) PRIMARY KEY,
   area_name VARCHAR(200) NOT NULL,
   sensor_id VARCHAR(100),
@@ -15,7 +15,7 @@ CREATE TABLE POLLUTION LEVELS (
   created_at TIMESTAMP DEFAULT now()
 );
 
-CREATE TABLE OPERATION DEPTHS (
+CREATE TABLE OPERATION_DEPTHS (
   id PRIMARY KEY,
   operation_name VARCHAR(200) NOT NULL,     -- Name of the operation or task
   device_id VARCHAR(100),                   -- Identifier for the vessel or device getting depth
@@ -26,7 +26,7 @@ CREATE TABLE OPERATION DEPTHS (
   created_at TIMESTAMP DEFAULT now()        -- Timestamp when the record was created  
 );
 
-CREATE TABLE AT RISK SPECIES (
+CREATE TABLE AT_RISK_SPECIES (
   id PRIMARY KEY,
   species_name VARCHAR(200) NOT NULL,       -- Common name of the species
   scientific_name VARCHAR(200),              -- Scientific name of the species

@@ -48,6 +48,8 @@ Data:
 The data that comes with these zones can be collected at
 timestamps that will be included with each entry.
 
+This data can tell us what parts of the ocean need to most attention when it comes to pollution cleaning as well as what species in that area are endangered or not. We can use this data to find out about the temperature at different depths at different locations, to find the best places for possible underwater habitation  
+
 
 
 

@@ -3,6 +3,7 @@ This is the general information file for the Sushi Superheros Database programmi
 Team Name: Sushi SuperHeros
 Team Members: Sean, Allison, Tevin, Michael
 
+
 General Information:
 Our Topic: number 14, Life Below Water
 Questions to answer:
@@ -16,9 +17,10 @@ Questions to answer:
 	- Drones & Buoy sensors?
   
 
-Project Definition:
+Project Definition and Topic Selection:
 Our project is based on Goal 14 from the United Nations Department of Economic and Social Affairs Sustainable Development, which is "Life Below Water". 
-On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. When tackling this goal,
+On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. The ocean itself acts as a necessity for nearly all forms of life, as well as a habitat for so many other forms of life with it. The lives that exist in the water are extremely important, as we utilize them so much in things like food and medicine. Lfie 
+
 Our team has created a handful of questions we will attempt to answer, those questions being:
       
       - What amount of pollution must be removed from each ocean, sea, or river to generate meaningful restoration to underwater ecosystems?

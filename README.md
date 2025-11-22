@@ -19,7 +19,7 @@ Questions to answer:
 
 Project Definition and Topic Selection:
 Our project is based on Goal 14 from the United Nations Department of Economic and Social Affairs Sustainable Development, which is "Life Below Water". 
-On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. The ocean itself acts as a necessity for nearly all forms of life, as well as a habitat for so many other forms of life with it. The lives that exist in the water are extremely important, as we utilize them so much in things like food and medicine. Lfie 
+On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. They provide the entire planet with various resources that are a necessity for our way of life. The ocean and its ecosystems give us things like food, medicine, and so many other useful things.
 
 Our team has created a handful of questions we will attempt to answer, those questions being:
       

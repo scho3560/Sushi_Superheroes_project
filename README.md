@@ -1,6 +1,7 @@
 This is the general information file for the Sushi Superheros Database programming project
 
 Team Name: Sushi SuperHeros
+
 Team Members: Sean, Allison, Tevin, Michael
 
 

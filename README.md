@@ -5,7 +5,7 @@ Team Name: Sushi SuperHeros
 Team Members: Sean, Allison, Tevin, Michael
 
 
-General Information:
+Topic Selection:
 Our Topic: number 14, Life Below Water
 Questions to answer:
   -At what depths are human operations (habitation, work, or recreation) considered safe, based on environmental and physiological constraints?
@@ -19,12 +19,12 @@ Questions to answer:
   
 
 Project Definition and Topic Selection:
-Our project is based on Goal 14 from the United Nations Department of Economic and Social Affairs Sustainable Development, which is "Life Below Water". 
-On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. They provide the entire planet with various resources that are a necessity for our way of life. The ocean and its ecosystems give us things like food, medicine, and so many other useful things.
+Our project is based on Goal 14 from the United Nations Department of Economic and Social Affairs' Sustainable Development Goals, which is "Life Below Water". 
+On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. They provide various resources in things like food, medicine, and climate assistance. These ecosystems, however are in danger from pollution and other forms of habitat destruction, and our project utilizes data collection and analysis to track pollution levels and populations to find areas that require the most help.
 
 Our team has created a handful of questions we will attempt to answer, those questions being:
       
-      - What amount of pollution must be removed from each ocean, sea, or river to generate meaningful restoration to underwater ecosystems?
+      - What amount of pollution (measured in PPM)must be removed from a body of water to achieve a safe level?
       - At what depths are human operations (habitation, work, or recreation) considered safe, based on environmental and physiological constraints?
       - How many species within each body of water are currently classified as threatened or endangered?
       - What is the estimated volume (cubic feet or cubic meters) of floating plastic accumulations (“garbage islands”) in each body of water?
@@ -36,8 +36,7 @@ The data we will use to answer these questions will come from many sources, but 
       - Animal Data from NOAA, IUCN, CMS, USFWS, and other foreign entities.
       - Government policies regarding conservation
 
-This data will be collected by our team from the related organizations' websites and their own reports on topics related to our project, which we will use to populate our
-database tables.
+This data will be collected by our team from the related organizations' websites and their own reports on topics related to our project, which we will use to populate our database tables.
 
 
 Project Definition Data:
@@ -75,7 +74,7 @@ Relationships:
 2 relationships
 
 Many-to-Many: species <-> habitable_zones
-A species can appear in many zones and a zone can contain many species, which is a 
+A species can appear in many zones, and a zone can contain many species, which is a 
 many-to-many relationship (via a small join table)
 
 One-to-Many: sensors -> sensor_readings

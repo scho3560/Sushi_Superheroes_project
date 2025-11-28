@@ -1,5 +1,5 @@
-Sushi Super Hero Database
---
+-- Sushi Superheroes Database
+
 CREATE TABLE IF NOT EXISTS pollution_levels (
     id BIGINT AUTO_INCREMENT PRIMARY KEY,
     area_name VARCHAR(200),
@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS pollution_levels (
     quality_flag SMALLINT DEFAULT 0,
     source VARCHAR(200),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+);
 
 -- Table: pollutants (plastic / environmental metrics)
 CREATE TABLE IF NOT EXISTS pollutants (
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS pollutants (
     goal_ppm INT,
     est_cubic_kilometers_plastic DECIMAL(18,6),
     reading_ts DATETIME NOT NULL
-) ENGINE=InnoDB;
+);
 
 -- Table: sensor_readings (general-purpose sensor measurements)
 CREATE TABLE IF NOT EXISTS sensor_readings (
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS sensor_readings (
     sensor_depth_meters DECIMAL(8,3),
     sensor_measurement_temp DECIMAL(8,3),
     measured_at DATETIME NOT NULL
-) ENGINE=InnoDB;
+);
 
 -- Table: satellites (satellite observations)
 CREATE TABLE IF NOT EXISTS satellites (
@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS satellites (
     satellite_location VARCHAR(256),
     satellite_measurement_temp DECIMAL(8,3),
     observed_at DATETIME
-) ENGINE=InnoDB;
+);
 
 -- Table: operation_depths (vessel/device depth logs)
 CREATE TABLE IF NOT EXISTS operation_depths (
@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS operation_depths (
     latitude DECIMAL(9,6),
     longitude DECIMAL(9,6),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+);
 
 -- Table: species (includes at-risk / conservation fields)
 CREATE TABLE IF NOT EXISTS species (
@@ -70,7 +70,7 @@ CREATE TABLE IF NOT EXISTS species (
     last_observed DATETIME,
     conservation_measures TEXT,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB;
+);
 
 -- Table: habitable_zones
 CREATE TABLE IF NOT EXISTS habitable_zones (
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS habitable_zones (
     ocean_location VARCHAR(256),
     habitable BOOLEAN,
     noted_at DATETIME
-) ENGINE=InnoDB;
+);
 
 -- Table: environment_data (flexible key/value or JSON blob)
 CREATE TABLE IF NOT EXISTS environment_data (
@@ -88,6 +88,5 @@ CREATE TABLE IF NOT EXISTS environment_data (
     data_value TEXT,
     is_endangered BOOLEAN,
     recorded_at DATETIME
-) ENGINE=InnoDB;
-
+);
 

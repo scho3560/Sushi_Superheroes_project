@@ -5,19 +5,6 @@ Team Name: Sushi SuperHeros
 Team Members: Sean, Allison, Tevin, Michael
 
 
-Topic Selection:
-Our Topic: number 14, Life Below Water
-Questions to answer:
-  -At what depths are human operations (habitation, work, or recreation) considered safe, based on environmental and physiological constraints?
-	- Throw people in a body of water experiment?
-
-  -How many species within each body of water are currently classified as threatened or endangered?
-	- Could pull from endangered species lists
-
-  -What is the estimated volume (cubic feet or cubic meters) of floating plastic accumulations (“garbage islands”) in each body of water?
-	- Drones & Buoy sensors?
-  
-
 Project Definition and Topic Selection:
 Our project is based on Goal 14 from the United Nations Department of Economic and Social Affairs' Sustainable Development Goals, which is "Life Below Water". 
 On the UN website, this goal focuses on the plan to 'Conserve and sustainably use the oceans, seas and marine resources for sustainable development'. This topic is important because the ocean and marine life are crucial to the ecosystems on our planet. They provide various resources in things like food, medicine, and climate assistance. These ecosystems, however are in danger from pollution and other forms of habitat destruction, and our project utilizes data collection and analysis to track pollution levels and populations to find areas that require the most help.
@@ -31,9 +18,11 @@ Our team has created a handful of questions we will attempt to answer, those que
 
 The data we will use to answer these questions will come from many sources, but some of them can include:
       - Temperature level readings from sensors placed in the ocean at different places
+      - More readings from satellites
       - Depth test results from sensors
-      - Pollution reports from different countries (EEA, UNEP, GPML, The Ocean Cleanup, NOAA, Nexus Plastic, etc.)
-      - Animal Data from NOAA, IUCN, CMS, USFWS, and other foreign entities.
+      - Pollution data read from sensors
+      - Operation/depth data from underwater drones
+      - Animal Data (endangered species) from IUCN, and USFWS, and other foreign entities
       - Government policies regarding conservation
 
 This data will be collected by our team from the related organizations' websites and their own reports on topics related to our project, which we will use to populate our database tables.
@@ -45,17 +34,15 @@ The data for our project will be filed into appropriate SQL database tables, tho
 Tables: 
 - Pollution Levels
 - Pollutants
-- Sensor Reading
-- Satellialte
-- habitat zone
+- Sensor Readings
+- Satellites
+- habitable zones
 - environmental data
 - species 
 - Operation Depths
-- At_Risk_Species
-- Volunteers
 
 Data:
-- average ppm
+- average ppm (parts per million)
 - pollutant type
 - sensors IDs, locations, and temperature readings
 - satellite name, location, and temperature measurements
